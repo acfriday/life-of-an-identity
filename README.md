@@ -4,6 +4,8 @@ The most common events in the life of an identity, which collectively manage the
 
 #### We'll explore the events in the lifecycle of an identity in further detail below:
 
-### ***[Provisioning](https://github.com/acfriday/life-of-an-identity/blob/main/provisioning/README.md)***
+### ***[Provisioning](https://github.com/acfriday/life-of-an-identity/tree/main/provisioning)***
 
-### ***[Authentication](https://github.com/acfriday/life-of-an-identity/blob/main/authentication/README.md)***
+### ***[Authentication](https://github.com/acfriday/life-of-an-identity/tree/main/authentication)***
+
+### ***[Authorization](https://github.com/acfriday/life-of-an-identity/tree/main/authorization)***
