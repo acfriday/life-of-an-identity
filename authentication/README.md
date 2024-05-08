@@ -6,7 +6,7 @@ The full process of authentication could require the receipt of various personal
 
 When a user has a previously registered account in a Microsoft ID tenant, that user can user input their credentials and authenticate with the Microsoft tenant. When the requirements are only something the user both ***knows*** and ***has***, authentication would look like the below:
 
-# Example: Authenticating with a Microsoft Entra ID Tenant
+## Example - Authenticating with a Microsoft Entra ID Tenant
 
 #### *Username/Email* - **`Something the user knows`**
 
