@@ -14,7 +14,7 @@ Employee data can be automatically transferred from an HR system over to externa
 
 Administrators with proper privileges can use APIs to programmatically set up user or device accounts.
 
-# Example: Provisioning with Keycloak's Admin REST API
+## Example - Provisioning with Keycloak's Admin REST API
 An administrator can use Keycloak's admin REST API to provision an account for a staff member to their organization's Realm
 
 ![image](https://github.com/acfriday/life-of-an-identity/assets/82184168/f05136c2-a932-4b50-acd2-8128d52ab8e5)
