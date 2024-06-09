@@ -14,4 +14,12 @@ Active sessions terminate depending on app configuration, some common options ar
 
 * `The user signs in on another device`
 
-# Terminating a session via logout
+## Example - Session lifetime with Microsoft Entra ID
+
+After successfully authenticating with Microsoft the  `Keep me signed in (KMSI) process is initiated with the user:
+
+![image](https://github.com/acfriday/life-of-an-identity/assets/82184168/66b7d955-fd77-44c0-a2fc-a887dfee2602)
+
+If `Yes` is selected for the `Stay signed in?` prompt, Azure generates a persistent authentication cookie and uses the persistent cookie to extend the user session and revokes the cookie only after the user logs out.
+
+# Logout
