@@ -11,3 +11,5 @@ The most common events in the life of an identity, which collectively manage the
 ### ***[Authorization](https://github.com/acfriday/life-of-an-identity/tree/main/authorization)***
 
 ### ***[Sessions and Logout](https://github.com/acfriday/life-of-an-identity/tree/main/sessions-and-logout)***
+
+### ***[Deprovisioning](https://github.com/acfriday/life-of-an-identity/tree/main/deprovisioning)***
