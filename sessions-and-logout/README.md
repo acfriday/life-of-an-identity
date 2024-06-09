@@ -22,4 +22,17 @@ After successfully authenticating with Microsoft the  `Keep me signed in (KMSI) 
 
 If `Yes` is selected for the `Stay signed in?` prompt, Azure generates a persistent authentication cookie and uses the persistent cookie to extend the user session and revokes the cookie only after the user logs out.
 
-# Logout
+# Session Timeout and Logout
+
+Session Timeout and Session Logout are two distinct mechanisms that serve different purposes. Here's a breakdown of their configuration differences below:
+
+* ### Session Timeout
+  A session timeout revolves around the two primary concepts of lifetime expiration and user inactivity. User inactivity is acknowledged by the application after a user hasn't 
+  performed any actions in the application for a predetermined time. This inactivity will automatically trigger the session's termination unless actions are performed beforehand. 
+  Lifetime expiration on the other hand is an explicitly set maximum duration a user session is allowed to remain active, regardless of any user activity, when this time is 
+  reached their session will be terminated.
+
+* ### Session Logout
+
+  A session logout is an explicit request made by an end-user, admin, or system user to the application they're authenticated with to signal their desire for their current 
+  session to be terminated. This manual process focuses on preventing access to the user's account and requires re-authentication before being granted access again.
