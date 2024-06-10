@@ -10,7 +10,7 @@ Deprovisioning is the act of removing a user's access to internal applications w
 ![image](https://github.com/acfriday/life-of-an-identity/assets/82184168/19ce38b7-7a84-46f1-9f18-a761e537b16d)
 
 ### Disabling a User Account In Microsoft Entra ID
-* Disabling an account provides a flexible and secure way to manage user access. This option supports security investigations, compliance requirements, temporary suspensions, risk mitigation during policy changes, and the preservation of historical data without removing the account from the identity platform so it can be quickly reused or reinstated if needed.
+* Disabling an account provides a flexible and secure way to manage user access. This option supports security investigations, compliance requirements, temporary suspensions, risk mitigation during policy changes, and the preservation of historical data without removing the account from the identity platform so it can be quickly recycled or reinstated if needed.
 
 ![image](https://github.com/acfriday/life-of-an-identity/assets/82184168/688aefe4-0483-45cd-bbc0-63b860fc5049)
 
